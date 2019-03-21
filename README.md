@@ -26,3 +26,7 @@ void Update()
 6. 运行导出的Unity-iPhone项目
 
 如果是PC/Linux/Mac平台，则需要在Assets目录下手动创建一个Log文件夹
+
+> 样例工程UnityCrash使用(需要Unity2018.3.0f及以上版本)
+
+从样例工程中导出iOS工程，直接运行，点击"Force Crash"按钮即可看到崩溃提示，如果未开启BackgroundMode，则需要在Mac上的浏览器中打开提示弹窗中的地址以查看崩溃堆栈，如果开启了BackgroundMode，点击"查看日志"按钮，则自动跳转到手机中的Safari浏览器并加载异常崩溃日志，查看日志堆栈信息并定位崩溃代码
