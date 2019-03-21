@@ -25,4 +25,4 @@ void Update()
 5. 集成完成
 6. 运行导出的Unity-iPhone项目
 
-如果是PC/Linux/Mac平台，则需要在Asset目录下手动创建一个Log文件夹
+如果是PC/Linux/Mac平台，则需要在Assets目录下手动创建一个Log文件夹
