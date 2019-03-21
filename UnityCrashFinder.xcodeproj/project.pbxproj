@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54215A292241C0FF0068B124 /* UnityCrashFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54215A282241C0FF0068B124 /* UnityCrashFinder.m */; };
+		54215A672241C27C0068B124 /* GCDWebServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54215A662241C27C0068B124 /* GCDWebServers.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		54215A6C2241C4140068B124 /* SystemLogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54215A692241C4130068B124 /* SystemLogMessage.m */; };
+		54215A6D2241C4140068B124 /* SystemLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54215A6A2241C4130068B124 /* SystemLogManager.m */; };
+		54215A722241C66B0068B124 /* OutputInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 54215A6E2241C66B0068B124 /* OutputInputStream.m */; };
+		54215A732241C66B0068B124 /* InteractionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 54215A712241C66B0068B124 /* InteractionLogger.m */; };
+		54215A762241C6830068B124 /* UnityLogServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54215A752241C6830068B124 /* UnityLogServer.m */; };
+		54215A7D2241CD920068B124 /* IPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 54215A7C2241CD920068B124 /* IPUtil.m */; };
+		54215A7F2241D91C0068B124 /* GCDWebServers.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54215A662241C27C0068B124 /* GCDWebServers.framework */; };
+		543F60E22243633F00053E33 /* UnityCrashFinder.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54215A282241C0FF0068B124 /* UnityCrashFinder.m */; };
+		543F60E3224363C000053E33 /* UnityLogServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54215A742241C6830068B124 /* UnityLogServer.h */; };
+		543F60E4224363C500053E33 /* InteractionLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54215A702241C66B0068B124 /* InteractionLogger.h */; };
+		543F60E5224386D700053E33 /* UnityCrashFinder.cs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54215A7E2241D14D0068B124 /* UnityCrashFinder.cs */; };
+		5444B7062243614F0001F310 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5444B7052243614F0001F310 /* libz.tbd */; };
+		5444B708224361580001F310 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5444B707224361580001F310 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54215A222241C0FF0068B124 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				543F60E5224386D700053E33 /* UnityCrashFinder.cs in CopyFiles */,
+				543F60E4224363C500053E33 /* InteractionLogger.h in CopyFiles */,
+				543F60E3224363C000053E33 /* UnityLogServer.h in CopyFiles */,
+				543F60E22243633F00053E33 /* UnityCrashFinder.m in CopyFiles */,
+				54215A7F2241D91C0068B124 /* GCDWebServers.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54215A242241C0FF0068B124 /* libUnityCrashFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnityCrashFinder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		54215A282241C0FF0068B124 /* UnityCrashFinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityCrashFinder.m; sourceTree = "<group>"; };
+		54215A662241C27C0068B124 /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GCDWebServers.framework; sourceTree = "<group>"; };
+		54215A682241C4130068B124 /* SystemLogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemLogMessage.h; sourceTree = "<group>"; };
+		54215A692241C4130068B124 /* SystemLogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemLogMessage.m; sourceTree = "<group>"; };
+		54215A6A2241C4130068B124 /* SystemLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemLogManager.m; sourceTree = "<group>"; };
+		54215A6B2241C4130068B124 /* SystemLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemLogManager.h; sourceTree = "<group>"; };
+		54215A6E2241C66B0068B124 /* OutputInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputInputStream.m; sourceTree = "<group>"; };
+		54215A6F2241C66B0068B124 /* OutputInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputInputStream.h; sourceTree = "<group>"; };
+		54215A702241C66B0068B124 /* InteractionLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionLogger.h; sourceTree = "<group>"; };
+		54215A712241C66B0068B124 /* InteractionLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionLogger.m; sourceTree = "<group>"; };
+		54215A742241C6830068B124 /* UnityLogServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityLogServer.h; sourceTree = "<group>"; };
+		54215A752241C6830068B124 /* UnityLogServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityLogServer.m; sourceTree = "<group>"; };
+		54215A7B2241CD920068B124 /* IPUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPUtil.h; sourceTree = "<group>"; };
+		54215A7C2241CD920068B124 /* IPUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPUtil.m; sourceTree = "<group>"; };
+		54215A7E2241D14D0068B124 /* UnityCrashFinder.cs */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnityCrashFinder.cs; sourceTree = "<group>"; };
+		5444B7052243614F0001F310 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5444B707224361580001F310 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54215A212241C0FF0068B124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5444B708224361580001F310 /* MobileCoreServices.framework in Frameworks */,
+				5444B7062243614F0001F310 /* libz.tbd in Frameworks */,
+				54215A672241C27C0068B124 /* GCDWebServers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54215A1B2241C0FF0068B124 = {
+			isa = PBXGroup;
+			children = (
+				54215A262241C0FF0068B124 /* UnityCrashFinder */,
+				54215A252241C0FF0068B124 /* Products */,
+				5444B7042243614F0001F310 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54215A252241C0FF0068B124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54215A242241C0FF0068B124 /* libUnityCrashFinder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54215A262241C0FF0068B124 /* UnityCrashFinder */ = {
+			isa = PBXGroup;
+			children = (
+				54215A7A2241C8830068B124 /* Vendor */,
+				54215A792241C8760068B124 /* LogServer */,
+				54215A782241C8460068B124 /* LogWriter */,
+				54215A772241C8380068B124 /* SystemLog */,
+				54215A282241C0FF0068B124 /* UnityCrashFinder.m */,
+				54215A7E2241D14D0068B124 /* UnityCrashFinder.cs */,
+			);
+			path = UnityCrashFinder;
+			sourceTree = "<group>";
+		};
+		54215A772241C8380068B124 /* SystemLog */ = {
+			isa = PBXGroup;
+			children = (
+				54215A6B2241C4130068B124 /* SystemLogManager.h */,
+				54215A6A2241C4130068B124 /* SystemLogManager.m */,
+				54215A682241C4130068B124 /* SystemLogMessage.h */,
+				54215A692241C4130068B124 /* SystemLogMessage.m */,
+			);
+			path = SystemLog;
+			sourceTree = "<group>";
+		};
+		54215A782241C8460068B124 /* LogWriter */ = {
+			isa = PBXGroup;
+			children = (
+				54215A702241C66B0068B124 /* InteractionLogger.h */,
+				54215A712241C66B0068B124 /* InteractionLogger.m */,
+				54215A6F2241C66B0068B124 /* OutputInputStream.h */,
+				54215A6E2241C66B0068B124 /* OutputInputStream.m */,
+			);
+			path = LogWriter;
+			sourceTree = "<group>";
+		};
+		54215A792241C8760068B124 /* LogServer */ = {
+			isa = PBXGroup;
+			children = (
+				54215A742241C6830068B124 /* UnityLogServer.h */,
+				54215A752241C6830068B124 /* UnityLogServer.m */,
+				54215A7B2241CD920068B124 /* IPUtil.h */,
+				54215A7C2241CD920068B124 /* IPUtil.m */,
+			);
+			path = LogServer;
+			sourceTree = "<group>";
+		};
+		54215A7A2241C8830068B124 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				54215A662241C27C0068B124 /* GCDWebServers.framework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		5444B7042243614F0001F310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5444B707224361580001F310 /* MobileCoreServices.framework */,
+				5444B7052243614F0001F310 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54215A232241C0FF0068B124 /* UnityCrashFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54215A2D2241C0FF0068B124 /* Build configuration list for PBXNativeTarget "UnityCrashFinder" */;
+			buildPhases = (
+				54215A202241C0FF0068B124 /* Sources */,
+				54215A212241C0FF0068B124 /* Frameworks */,
+				54215A222241C0FF0068B124 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnityCrashFinder;
+			productName = UnityCrashFinder;
+			productReference = 54215A242241C0FF0068B124 /* libUnityCrashFinder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54215A1C2241C0FF0068B124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yuri Boyka";
+				TargetAttributes = {
+					54215A232241C0FF0068B124 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 54215A1F2241C0FF0068B124 /* Build configuration list for PBXProject "UnityCrashFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54215A1B2241C0FF0068B124;
+			productRefGroup = 54215A252241C0FF0068B124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54215A232241C0FF0068B124 /* UnityCrashFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54215A202241C0FF0068B124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54215A292241C0FF0068B124 /* UnityCrashFinder.m in Sources */,
+				54215A6D2241C4140068B124 /* SystemLogManager.m in Sources */,
+				54215A732241C66B0068B124 /* InteractionLogger.m in Sources */,
+				54215A6C2241C4140068B124 /* SystemLogMessage.m in Sources */,
+				54215A7D2241CD920068B124 /* IPUtil.m in Sources */,
+				54215A722241C66B0068B124 /* OutputInputStream.m in Sources */,
+				54215A762241C6830068B124 /* UnityLogServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54215A2B2241C0FF0068B124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54215A2C2241C0FF0068B124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54215A2E2241C0FF0068B124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnityCrashFinder/Vendor",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54215A2F2241C0FF0068B124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnityCrashFinder/Vendor",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54215A1F2241C0FF0068B124 /* Build configuration list for PBXProject "UnityCrashFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54215A2B2241C0FF0068B124 /* Debug */,
+				54215A2C2241C0FF0068B124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54215A2D2241C0FF0068B124 /* Build configuration list for PBXNativeTarget "UnityCrashFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54215A2E2241C0FF0068B124 /* Debug */,
+				54215A2F2241C0FF0068B124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54215A1C2241C0FF0068B124 /* Project object */;
+}
